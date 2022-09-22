@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.block {
+	padding: 10px;
+	min-height: 100px;
+	margin: 15px;
+
+}
+.list {
+	font-family: Lato;
+	font-weight: 700;
+	padding: 15px;
+	max-width: 300;
+	max-height: 50px;
+	overflow: auto;
+}
+.text {
+	padding: 15px;
+	max-height: 80px;
+	overflow: hidden;
+box-shadow: inset 5px 5px 10px 5px;
+margin-top: 10px;
+}
+.image {
+	padding: 15px;
+	margin: 15px;
+	width: 400px;
+	border-top: 10px solid rgb(1, 29, 69);
+	border-right: 6px dotted rgb(69, 1, 61);
+	border-bottom: 5px dashed rgb(1, 69, 12);
+	border-left: none;
+}
+.title {
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 900;
+}
+.inside {
+	background-color: gold;
+	font-family: Lato;
+	padding: 15px;
+	margin: 0 auto;
+	color: crimson;
+	max-width: 400px;
+	outline: 5px solid rgb(110, 22, 81);
+}
+.ipsum {
+	font-family: Lato;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.amet {
+	padding: 20px;
+	margin: 20px;
+	background-color: blueviolet;
+	width: 900px;
+	height: 100%;
+	border-radius: 50%;
+}
+.block p {
+	opacity: 0;
+}
